@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+    <meta charset="UTF-8">
+    <title>Registar Administrador</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="bg-light">
+
+<div class="container mt-5">
+    <h1 class="mb-4 text-center">Registar Único Administrador</h1>
+
+    <form action="../../php/autenticacao/registar_admin.php" method="POST" class="p-4 bg-white shadow rounded">
+
+        <fieldset class="mb-4">
+            <legend class="h5">Dados Pessoais</legend>
+
+            <div class="mb-3">
+                <label for="nome" class="form-label">Nome Completo:</label>
+                <input type="text" id="nome" name="nome" class="form-control" required>
+            </div>
+
+            <div class="mb-3">
+                <label for="email" class="form-label">Email:</label>
+                <input type="email" id="email" name="email" class="form-control" required>
+            </div>
+        </fieldset>
+
+        <fieldset class="mb-4">
+            <legend class="h5">Credenciais de Acesso</legend>
+
+            <div class="mb-3">
+                <label for="password" class="form-label">Palavra-passe:</label>
+                <input type="password" id="password" name="password" class="form-control" required>
+            </div>
+        </fieldset>
+
+        <div class="d-flex justify-content-between">
+            <button type="reset" class="btn btn-outline-secondary">Limpar</button>
+            <button type="submit" class="btn btn-primary">Registar</button>
+        </div>
+    </form><br>
+
+    <div class="text-center">
+        <a href="login.html" class="text-decoration-none">Já tem conta? Faça login</a>
+    </div>
+    <a href="escolher_registo.html" class="btn btn-secondary mt-3">Voltar ao Início</a>
+</div>
+
+<!-- Bootstrap JS-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
