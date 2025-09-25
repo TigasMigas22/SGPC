@@ -66,25 +66,6 @@ Tabelas principais incluem:
 3. Iniciar **Apache** e **MySQL** no painel do XAMPP.  
 4. Aceder via navegador:  
 
-
----
-
-## 📁 Estrutura do Projeto
-SistemaGestaoPosto/
-│
-├── html/ # Páginas e formulários HTML
-├── php/ # Código backend PHP
-│ ├── autenticacao/ # Login, logout, gestão de sessão
-│ ├── agendamento/ # Serviços e agendamentos
-│ ├── vendas/ # Registo de vendas
-│ ├── alertas/ # Gestão de alertas
-│ └── fidelizacao/ # Fidelização de clientes
-├── css/ # Folhas de estilo
-├── js/ # Scripts JavaScript
-├── bd/ # Scripts SQL
-└── README.md # Documentação
-
-
 ---
 
 ## 👥 Perfis de Utilizador e Funcionalidades
